@@ -4,43 +4,20 @@
   <meta charset="utf-8" />
   <meta http-equiv="Cache-Control" content="no-cache">
   <title>Тест</title>
-  <style>
-    audio {
-      width: 90%;
-      max-width: 700px;
-      width: 90%; height: 100px;
-      display: block;
-      margin: 20px auto;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="audio-container">
-  <button id="playPauseButton">Play</button>
-     <audio id="myAudio" preload="auto">
-    <source src="test.mp3" type="audio/mpeg">
-   </audio>
-    </div>
-  <img src="meteo1.jpg" alt="meteo1" width="100%" height="auto">
-  <img src="meteo2.jpg" alt="meteo2" width="100%" height="auto">
-  <img src="meteo3.jpg" alt="meteo3" width="100%" height="auto">
-  <img src="meteo4.jpg" alt="meteo4" width="100%" height="auto">
-  <script>
-  const audio = document.getElementById('myAudio');
-  const button = document.getElementById('playPauseButton');
-
-  button.addEventListener('click', () => {
-    if (audio.paused) {
-      audio.play();
-      button.textContent = 'Pause';
-    } else {
-      audio.pause();
-      button.textContent = 'Play';
-    }
-  });
-
- audio.play();
-
-</script>
+    <button id="playPauseButton">Play</button>
+  </div>
+  <div class=main>
+    <audio id="myAudio" preload="auto">
+      <source src="test.mp3" type="audio/mpeg">
+    </audio>
+    <img src="meteo1.jpg" alt="meteo1" width="100%" height="auto">
+    <img src="meteo2.jpg" alt="meteo2" width="100%" height="auto">
+    <img src="meteo3.jpg" alt="meteo3" width="100%" height="auto">
+    <img src="meteo4.jpg" alt="meteo4" width="100%" height="auto">
+  </div>
 </body>
 </html>
