@@ -14,7 +14,7 @@ body {
       z-index: 1000;
       display: flex;
       justify-content: center;
-      padding: 20px 0;
+      padding: 10px 0;
       background-color: rgba(255,255,255,0.8);
       box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     }
@@ -23,13 +23,13 @@ body {
       background-color: #FFEF67;
       border: none;
       color: black;
-      padding: 20px 40px;
+      padding: 15px 40px;
       min-width: 500px;
       max-width: 1000px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 28px;
+      font-size: 22px;
       border-radius: 5px;
       cursor: pointer;
       box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
@@ -61,7 +61,7 @@ body {
 
 @media screen and (max-width: 768px) {
     #playPauseButton {
-      padding: 20px 20px;
+      padding: 15px 20px;
       min-width: 300px;
 }
 }
