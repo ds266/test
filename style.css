@@ -1,0 +1,60 @@
+  body {
+      margin: 0;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .audio-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+      background-color: rgba(255,255,255,0.8);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    #playPauseButton {
+      background-color: #FFEF67;
+      border: none;
+      color: black;
+      padding: 20px 40px;
+      min-width: 500px;
+      max-width: 1000px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      transition: background-color 0.3s ease; 
+    }
+
+    #playPauseButton:hover {
+      background-color: #FFE033;
+    }
+
+    audio {
+      width: 90%;
+      max-width: 700px;
+      display: block;
+      margin: 20px auto;
+    }
+
+    .main {
+      margin: 130px auto 0px;
+      width: 90%;
+      max-width: 700px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block; 
+    }
